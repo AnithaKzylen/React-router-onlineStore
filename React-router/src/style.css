@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    padding: 30px 40px;
+    width: 100%;
+    background-color:#f4511e;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+}
+.header .logo h2 {
+    color: whitesmoke;
+    font-size: 32px;
+    cursor: pointer;
+}
+.header .logo h2 span{
+    color: blue;
+}
+.header ul {
+    display: flex;
+}
+.header ul li {
+    margin-right: 20px;
+    list-style: none;
+    color:white;
+
+}
+
